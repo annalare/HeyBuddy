@@ -3,7 +3,7 @@
 :root {
   --header-height: 3.5rem;
 
-  --first-color: hsl(38, 69%, 59%);
+  --first-color: hsl(290, 57%, 74%);
   --text-color: hsl(38, 8%, 8%);
 
   --body-font: "Space Grotesk", sans-serif;
@@ -72,7 +72,7 @@
   width: 100%;
   padding: 5rem 0 4rem;
   border-radius: 0 0 1.5rem 1.5rem;
-  box-shadow: 0 2px 4px hsla(38, 4%, 15%, 0.15);
+  box-shadow: 0 2px 4px hsla(0, 2%, 10%, 0.15);
   transition: 0.4s;
 }
 .nav__list {
@@ -163,10 +163,10 @@ img {
 .home__shadow {
   width: 130px;
   height: 24px;
-  background-color: hsla(38, 21%, 19%, 0.16);
+  background-color: hsla(60, 3%, 8%, 0.16);
   margin: 0 auto;
   border-radius: 50%;
-  filter: blur(7px);
+  filter: blur(9px);
   animation: shadow 1.8s infinite alternate;
 }
 .home__footer {
